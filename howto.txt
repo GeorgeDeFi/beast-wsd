@@ -1,0 +1,13 @@
+How to setup a sales pool on beast
+
+1. deploy the contract.txt to mainnet and configure it to work with the native token by replacing the address in the solidity contract code
+
+2. deposit native token to pool and call the startbeastsale function
+
+2. update pool address on example.js
+
+3. update pool address and set countdown date in index.html
+
+4. when sale is complete, call endbeastsale function, then withdraweth / withdrawtokens to obtain tokens / ethereum
+
+Original sales address: 0x830d68d87f3578ae925c2f0aa66a49aa024e0dce - Replace this with your pool once deployed
